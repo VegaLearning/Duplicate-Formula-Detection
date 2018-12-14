@@ -1,5 +1,7 @@
 一、快速使用：
+
 打开model文件夹
+
 1、训练
 1)设置
 --- load_data.py中
@@ -27,7 +29,9 @@ is_training = False
 二、数据预处理（由于已处理好数据，可直接跳过这一步）
 preprocess中为数据预处理程序，包括
 1、del_damaged_img.py 删除imgs中损坏的图片
+
 2、del_rep&non-img.py 删除label.split.txt中重复的行以及没有对应图片的行
+
 3、w_replace.py 对latex进行相似替换的预处理，处理如下
 '''
 letter -> a     eg: x y z -> a a a
