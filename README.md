@@ -41,6 +41,6 @@ digital*letter -> a     eg: 4 3 x y z -> a a a
 letter/digital -> a     eg: 4 3 x y z / 5 3 -> a a a  
 '''  
 
-4、split_dataset.py 将所有行shuffle后，划分为训练集和测试集(最后10000行)
-5、get_testpair.py 得到测试对(1 or 0)数据集
-6、add_noise.py 生成带噪声公式测试图片  
+4、split_dataset.py 将所有行shuffle后，划分为训练集和测试集(最后10000行)  
+5、get_testpair.py 得到测试对(1 or 0)数据集  
+6、add_noise.py 生成带噪声公式测试图片    
